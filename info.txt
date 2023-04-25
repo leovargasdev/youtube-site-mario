@@ -19,3 +19,10 @@
 - background linear
 
 background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+- Sinopse do filme
+
+Um dia, Mario e Luigi vão para no reino dos cogumelos, governado pela Princesa Peach, 
+mas ameaçado pelo rei dos Koopas, Bowser, que vai fazer de tudo para conseguir 
+reinar todos os lugares. É então quando Luigi é raptado por Bowser e o usa para 
+procurar Mario, o único capaz de deter o Koopa e reestabelexcer a paz.
