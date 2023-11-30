@@ -1,3 +1,8 @@
+@import url('./background-video.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./button-mobile.css');
+
 * {
   padding: 0;
   margin: 0;
@@ -23,4 +28,22 @@ a {
 
 button:hover {
   cursor: pointer;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  padding: 0 48px;
+}
+
+@media(max-width: 500px) {
+  #app {
+    padding: 0 16px;
+  }
 }

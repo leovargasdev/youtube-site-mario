@@ -1,0 +1,23 @@
+.bg-video {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bg-video::after {
+  content: '';
+  width: inherit;
+  height: inherit;
+  position: fixed;
+  inset: 0;
+  display: block;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
